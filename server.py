@@ -4,25 +4,25 @@ import pickle
 
 item = ["bola", "permen", "palu"]
 act_log = [
-    {"ip_address": '192.168.56.1', "date": '20/06/2021', "time": '17:20:38',
+    {"ip_address": '169.254.125.49', "date": '20/06/2021', "time": '17:20:38',
      "activity": 'view', "value": None},
-    {"ip_address": '192.168.56.1', "date": '20/06/2021', "time": '17:30:38',
+    {"ip_address": '169.254.125.49', "date": '20/06/2021', "time": '17:30:38',
      "activity": 'view log', "value": None},
-    {"ip_address": '192.168.56.1', "date": '20/06/2021', "time": '20:32:00',
+    {"ip_address": '169.254.125.49', "date": '20/06/2021', "time": '20:32:00',
      "activity": 'insert', "value": "palu"},
-    {"ip_address": '192.168.56.1', "date": '23/06/2021', "time": '18:39:21',
+    {"ip_address": '169.254.125.49', "date": '23/06/2021', "time": '18:39:21',
      "activity": 'view', "value": None},
-    {"ip_address": '192.168.56.1', "date": '23/06/2021', "time": '18:39:31',
+    {"ip_address": '169.254.125.49', "date": '23/06/2021', "time": '18:39:31',
      "activity": 'view log', "value": None},
-    {"ip_address": '192.168.56.1', "date": '23/06/2021', "time": '18:41:05',
+    {"ip_address": '169.254.125.49', "date": '23/06/2021', "time": '18:41:05',
      "activity": 'log date', "value": "22/06/2021"},
-    {"ip_address": '192.168.56.1', "date": '23/06/2021', "time": '20:41:44',
+    {"ip_address": '169.254.125.49', "date": '23/06/2021', "time": '20:41:44',
      "activity": 'log date', "value": "20/06/2021"}
 ]
 
 h_name = socket.gethostname()
 IP_addr = socket.gethostbyname(h_name)
-TCP_IP = IP_addr
+TCP_IP = "192.168.1.4"
 TCP_PORT = 6000
 BUFFER_SIZE = 4096
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
