@@ -1,6 +1,6 @@
 # activity-log
 Tugas Besar Sistem Paralel dan Terdistribusi
-Topik: Activity Log
+Topik: Activity Log (Sistem Terdistribusi)
 
 Kelompok 6 IF-42-04
 Anggota:
